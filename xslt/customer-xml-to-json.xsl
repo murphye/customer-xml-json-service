@@ -1,4 +1,4 @@
-<!-- https://xsltfiddle.liberty-development.net/aiynfa/3 -->
+<!-- https://xsltfiddle.liberty-development.net/aiynfa/4 -->
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/2005/xpath-functions" version="3.0">
 
     <xsl:output method="text" />
@@ -18,8 +18,7 @@
             <string key="name"><xsl:value-of select="C_NAME" /></string>
             <string key="address"><xsl:value-of select="C_ADDRESS" /></string>
             <number key="nation_id"><xsl:value-of select="C_NATIONKEY" /></number>
-            <string key="phone"><xsl:value-of select="C_PHONE" />
-            </string>
+            <string key="phone"><xsl:value-of select="C_PHONE" /></string>
             <number key="account_balance"><xsl:value-of select="C_ACCTBAL" /></number>
             <string key="market_segment"><xsl:value-of select="C_MKTSEGMENT" /></string>
             <string key="comment"><xsl:value-of select="C_COMMENT" /></string>
