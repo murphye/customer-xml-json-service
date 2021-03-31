@@ -1,0 +1,14 @@
+[
+    {
+        "market_segment": "AUTOMOBILE",
+        "account_balance_total": 75577498.12,
+        "account_balance_trend": "DECLINING",
+        "nation_ids": [1, 2]
+    },
+    {
+        "market_segment": "MACHINERY",
+        "account_balance_total": 5544522866.83,
+        "account_balance_trend": "INCREASING",
+        "nation_ids": [4, 2]
+    }
+]

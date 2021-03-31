@@ -1,0 +1,58 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="C_CUSTKEY" type="xs:byte"/>
+  <xs:element name="C_NAME" type="xs:string"/>
+  <xs:element name="C_ADDRESS" type="xs:string"/>
+  <xs:element name="C_NATIONKEY" type="xs:byte"/>
+  <xs:element name="C_PHONE" type="xs:string"/>
+  <xs:element name="C_ACCTBAL" type="xs:float"/>
+  <xs:element name="C_MKTSEGMENT" type="xs:string"/>
+  <xs:element name="C_COMMENT" type="xs:string"/>
+  <xs:element name="T">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="C_CUSTKEY"/>
+        <xs:element ref="C_NAME"/>
+        <xs:element ref="C_ADDRESS"/>
+        <xs:element ref="C_NATIONKEY"/>
+        <xs:element ref="C_PHONE"/>
+        <xs:element ref="C_ACCTBAL"/>
+        <xs:element ref="C_MKTSEGMENT"/>
+        <xs:element ref="C_COMMENT"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="C_ACCTBAL_TOTAL" type="xs:float"/>
+  <xs:element name="C_ACCTBAL_TREND" type="xs:string"/>
+  <xs:element name="C_NATIONKEYS">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="C_NATIONKEY" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="C_MKTSEGMENT_SUMMARY">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="C_MKTSEGMENT"/>
+        <xs:element ref="C_ACCTBAL_TOTAL"/>
+        <xs:element ref="C_ACCTBAL_TREND"/>
+        <xs:element ref="C_NATIONKEYS"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="table">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="T" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+      <xs:attribute type="xs:string" name="ID"/>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="C_MKTSEGMENT_ROLLUP">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element ref="C_MKTSEGMENT_SUMMARY" maxOccurs="unbounded" minOccurs="0"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

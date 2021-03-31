@@ -1,0 +1,22 @@
+<table ID="customer">
+    <T>
+        <C_CUSTKEY>3</C_CUSTKEY>
+        <C_NAME>Customer#000000003</C_NAME>
+        <C_ADDRESS>MG9kdTD2WBHm</C_ADDRESS>
+        <C_NATIONKEY>1</C_NATIONKEY>
+        <C_PHONE>11-719-748-3364</C_PHONE>
+        <C_ACCTBAL>7498.12</C_ACCTBAL>
+        <C_MKTSEGMENT>AUTOMOBILE</C_MKTSEGMENT>
+        <C_COMMENT>special packages wake. slyly reg</C_COMMENT>
+    </T>
+    <T>
+        <C_CUSTKEY>4</C_CUSTKEY>
+        <C_NAME>Customer#000000004</C_NAME>
+        <C_ADDRESS>XxVSJsLAGtn</C_ADDRESS>
+        <C_NATIONKEY>4</C_NATIONKEY>
+        <C_PHONE>14-128-190-5944</C_PHONE>
+        <C_ACCTBAL>2866.83</C_ACCTBAL>
+        <C_MKTSEGMENT>MACHINERY</C_MKTSEGMENT>
+        <C_COMMENT>slyly final accounts sublate carefully. slyly ironic asymptotes nod across the quickly regular pack</C_COMMENT>
+    </T>
+</table>
