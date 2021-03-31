@@ -1,0 +1,22 @@
+<array xmlns="http://www.w3.org/2005/xpath-functions">
+    <map>
+        <number key="id">3</number>
+        <string key="name">#000000003Customer</string>
+        <string key="address">MG9kdTD2WBHm</string>
+        <number key="nation_id">1</number>
+        <string key="phone">11-719-748-3364</string>
+        <number key="account_balance">7498.12</number>
+        <string key="market_segment">AUTOMOBILE</string>
+        <string key="comment">special packages wake. slyly reg</string>
+    </map>
+    <map>
+        <number key="id">4</number>
+        <string key="name">Customer#000000004</string>
+        <string key="address">XxVSJsLAGtn</string>
+        <number key="nation_id">4</number>
+        <string key="phone">14-128-190-5944</string>
+        <number key="account_balance">2866.83</number>
+        <string key="market_segment">MACHINERY</string>
+        <string key="comment">slyly final accounts sublate carefully. slyly ironic asymptotes nod across the quickly regular pack</string>
+    </map>
+</array>
