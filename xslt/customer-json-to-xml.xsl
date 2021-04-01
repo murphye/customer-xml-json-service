@@ -1,11 +1,10 @@
-<!-- https://xsltfiddle.liberty-development.net/3MEdvic/7 -->
-
+<!-- https://xsltfiddle.liberty-development.net/3MEdvic/10 -->
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns="http://www.w3.org/2005/xpath-functions" version="3.0">
 
     <xsl:output indent="yes" />
 
-    <xsl:template match="json">
+    <xsl:template match="/">
         <C_MKTSEGMENT_ROLLUP xmlns="">
             <xsl:apply-templates select="json-to-xml(.)/*"/>
         </C_MKTSEGMENT_ROLLUP>
